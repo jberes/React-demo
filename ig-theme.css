@@ -1,0 +1,51 @@
+:root {
+    --ig-font-family: "Rock Salt";
+    --ig-radius-factor: 1;
+    --ig-primary-h: 210deg;
+    --ig-primary-s: 63%;
+    --ig-primary-l: 77%;
+    --ig-secondary-h: 208deg;
+    --ig-secondary-s: 7%;
+    --ig-secondary-l: 46%;
+    --ig-surface-h: 210deg;
+    --ig-surface-s: 17%;
+    --ig-surface-l: 98%;
+    --ig-error-h: 354deg;
+    --ig-error-s: 70%;
+    --ig-error-l: 54%;
+    --ig-success-h: 134deg;
+    --ig-success-s: 61%;
+    --ig-success-l: 41%;
+    --ig-warn-h: 45deg;
+    --ig-warn-s: 100%;
+    --ig-warn-l: 51%;
+    --ig-info-h: 188deg;
+    --ig-info-s: 78%;
+    --ig-info-l: 41%;
+    --ig-primary-800-contrast: black;
+    --ig-primary-900-contrast: black;
+    --ig-primary-A700-contrast: black;
+    --ig-secondary-500-contrast: white;
+    --ig-error-600-contrast: white;
+    --ig-error-A400-contrast: white;
+    --ig-info-600-contrast: black;
+    --ig-info-700-contrast: black;
+    --ig-info-800-contrast: black;
+    --ig-info-A400-contrast: black;
+}
+
+/* align icons in their containers */
+.material-icons, .imx-icon {
+  vertical-align: middle;
+}
+
+.ig-typography h1,
+.ig-typography h2,
+.ig-typography h3,
+.ig-typography h4,
+.ig-typography h5,
+.ig-typography h6,
+.ig-typography p,
+.ig-typography__body-1 {
+    margin: 0 !important;
+}
